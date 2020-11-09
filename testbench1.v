@@ -14,7 +14,7 @@ reg  b;
 wire y;
 
 
-and_2_beh(a,b,y);// instead of this put the structural or dataflow module while doing each
+and_2_beh beh1 (a,b,y);// instead of this put the structural or dataflow module while doing each
 initial
 begin  
 
